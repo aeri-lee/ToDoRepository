@@ -139,8 +139,31 @@
 
 <br />
 
-# 페이지 별 기능
+## 페이지별 기능 
+### 초기화면
+- 로그인페이지가 나오며 계정이 없을 시 회원가입을 클릭합니다.
+<img height=450px width=550 src="https://github.com/user-attachments/assets/16e0153c-9a1b-490e-8d26-fee353afe44a">
 
-<br />
+### 회원가입 페이지
+- 이름, ID, 이메일, 비밀번호 작성을 통해 회원가입을 합니다.
+- ID는 중복이 불가능하며 비밀번호는 영문, 숫자, 특수문자를 혼합하여 6~20로 제한합니다.
+- 모든 항목을 필수로 입력 후 '가입하기'버튼 클릭 시 로그인 페이지로 돌아갑니다.
+<img height=450px width=550 src="https://github.com/user-attachments/assets/0e60b3d8-1289-49b1-b28d-29577333e9e4">
 
-# 개선 목표
+### TODO-LIST 페이지(오늘의 TODO 등록 전)
+- 회원가입 한 ID와 패스워드로 로그인 합니다.
+- 현재 일자, 사용자ID와 비교하여 저장된 데이터가 없다면(등록된 현재 일자의 할 일이 없다면) 'TODO-LIST 등록' 버튼이 보입니다.
+- 'TODO-LIST 등록' 버튼 클릭 시 등록 페이지로 넘어갑니다.
+<img height=450px width=550 src="https://github.com/user-attachments/assets/f2ac2cec-0ab8-44b8-b8ac-aa820b26948e">
+
+### TODO-LIST 등록 페이지
+- 할 일과 할 일의 상세 내용이 있다면 작성합니다.
+- 'ADD'버튼 클릭 시 작성한 할 일이 표 형식으로 보이며 완료여부,제목,내용,게시글id 등의 항목과 값을 동적으로 생성합니다.
+- '삭제'버튼 클릭 시 해당 행이 삭제되며 게시글id를 순서대로 다시 매깁니다.
+
+
+
+
+
+
+## 개선 목표
