@@ -158,12 +158,20 @@
 
 ### TODO-LIST 등록 페이지
 - 할 일과 할 일의 상세 내용이 있다면 작성합니다.
+- 최소 1개 이상의 할 일을 작성해야 합니다.
 - 'ADD'버튼 클릭 시 작성한 할 일이 표 형식으로 보이며 완료여부,제목,내용,게시글id 등의 항목과 값을 동적으로 생성합니다.
 - '삭제'버튼 클릭 시 해당 행이 삭제되며 게시글id를 순서대로 다시 매깁니다.
+- '저장' 버튼 클릭 시 다시 TODO-LIST 페이지로 돌아갑니다.
+<img height=450px width=750 src="https://github.com/user-attachments/assets/ff3074ca-3110-4315-a413-4bc99c6556c5">
 
-
-
-
+### TODO-LIST 페이지(오늘의 TODO 등록 후)
+- 현재 날짜에 해당하는 등록한 TODO-LIST가 표출되며 'TODO-LIST 수정' 버튼이 보여집니다.
+- 자정이 지나게 되면 다시 'TODO-LIST 등록' 버튼이 보여집니다.
+- TODO-LIST 페이지에서는 할일과 상세내용,완료여부 수정이 가능합니다.
+<img height=450px width=550 src="https://github.com/user-attachments/assets/2dd9ae4e-a42f-4225-b345-b70e2db826a7">
 
 
 ## 개선 목표
+- 오늘의 TODO 등록 후 TODO-LIST 페이지에서도 할 일 추가나 삭제 가능하도록 추가 구현 예정
+- 할 일의 우선순위 설정 기능 추가 예정
+- 과거 TODO-LIST 표출 추가 예정
