@@ -73,10 +73,12 @@
     │  │                      └─TODO
 
   ```
+<br>
 
 ## 프로세스 흐름도
 <img height=500px width=300 src="https://github.com/user-attachments/assets/073a2038-ffb9-4c7d-896a-fb01a8686044">
 
+<br>
 
 ## 테이블 설계
 ### 엔티티 관계도
