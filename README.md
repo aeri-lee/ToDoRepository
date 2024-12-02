@@ -17,11 +17,65 @@
 <br />
 
 ## 프로젝트 구조
-- 깃허브 구조
+- 프로젝트는 간결함을 위해 기타 설정 파일을 제외한 주요 소스파일(java, jsp, css, xml)만 포함되어 있습니다.
+
+```shell
+└─TODO
+    ├─bin
+    │  ├─src
+    │  │  └─main
+    │  │      ├─java
+    │  │      │  └─egovframework
+    │  │      │      └─TODO
+    │  │      │          ├─service
+    │  │      │          │  └─impl
+    │  │      │          └─web
+    │  │      ├─resources
+    │  │      │  └─egovframework
+    │  │      │      └─sqlmap
+    │  │      │          └─example
+    │  │      │              └─mappers
+    │  │      └─webapp
+    │  │          ├─css
+    │  │          │  └─egovframework
+    │  │          └─WEB-INF
+    │  │              ├─config
+    │  │              │  └─egovframework
+    │  │              │      └─springmvc
+    │  │              └─jsp
+    │  │                  └─egovframework
+    │  │                      └─example
+    │  │                          └─TODO
+    │  ├─target
+    │  │  ├─classes
+    │  │  │  └─egovframework
+    │  │  │      ├─example
+    │  │  │      │  ├─cmmn
+    │  │  │      │  │  └─web
+    │  │  │      │  └─sample
+    │  │  │      │      ├─service
+    │  │  │      │      │  └─impl
+    │  │  │      │      └─web
+    │  │  │      ├─sqlmap
+    │  │  │      │  └─example
+    │  │  │      │      └─mappers
+    │  │  │      └─TODO
+    │  │  │          ├─service
+    │  │  │          │  └─impl
+    │  │  │          └─web
+    │  │  ├─generated-sources
+    │  │  │  └─annotations
+    │  │  └─m2e-wtp
+    │  │      └─web-resources
+    │  │          └─META-INF
+    │  │              └─maven
+    │  │                  └─TODO
+    │  │                      └─TODO
+
+  ```
 
 ## 프로세스 흐름도
 <img height=500px width=300 src="https://github.com/user-attachments/assets/073a2038-ffb9-4c7d-896a-fb01a8686044">
-
 
 
 ## 테이블 설계
